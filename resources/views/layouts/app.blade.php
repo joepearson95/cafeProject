@@ -23,15 +23,16 @@
                 <div class="container">
                     <div id="mySidenav" class="sidenav">
                         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                        <a href="#about">About</a>
-                        <a href="#event">Event</a>
-                        <a href="#menu-list">Menu</a>
-                        <a href="#contact">Book a table</a>
+                        <a href="#about"><i class="fas fa-coffee"></i> About</a>
+                        <a href="#event"><i class="fas fa-calendar-alt"></i> Event</a>
+                        <a href="#menu-list"><i class="fas fa-book-open"></i> Menu</a>
+                        <a href="#contact"><i class="fas fa-pencil-alt"></i> Book a table</a>
                         @if(Auth::user())
-                            <a href="{{route('logout')}}">Logout</a>
+                            <a href="#"><i class="fas fa-shopping-cart"></i> Cart</a>
+                            <a href="{{route('logout')}}"><i class="fas fa-sign-out-alt"></i> Logout</a>
                         @else
-                            <a href="{{route('login')}}">Login</a>
-                            <a href="{{route('register')}}">Register</a>
+                            <a href="{{route('login')}}"><i class="fas fa-sign-in-alt"></i> Login</a>
+                            <a href="{{route('register')}}"><i class="fas fa-user-plus"></i> Register</a>
                         @endif
                     </div>
                     <span onclick="openNav()" class="pull-right menu-icon">☰</span>

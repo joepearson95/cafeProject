@@ -23,7 +23,7 @@ table {
 	border-spacing: 0;
 }
 #banner{
-    background: url(https://cdn.pixabay.com/photo/2017/04/19/13/18/computer-2242274_960_720.jpg) no-repeat center top;
+    background: url(https://images.unsplash.com/photo-1521017432531-fbd92d768814?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e813bc9e93c2b7ede92476a3eddf3606&auto=format&fit=crop&w=1500&q=80) no-repeat center top;
     background-size: cover;
     min-height: 694px;
 }
@@ -71,7 +71,8 @@ table {
     transition: 0.3s
 }
 .sidenav a:hover, .offcanvas a:focus{
-    color: #f1f1f1;
+    color: #FFB03B;
+    
 }
 .closebtn {
     position: absolute;
@@ -262,10 +263,11 @@ table {
 #about img
 {
     border: 5px solid rgb(255, 176, 59);
-    border-radius: 2px;
+    border-radius: 10%;
+    
 }
 #event{
-    background: url('../img/res02.jpg') no-repeat;
+    background: url('https://images.unsplash.com/photo-1498669374702-58e97ebbede3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=69720848fb5a9481e89b40c7dd8af9b5&auto=format&fit=crop&w=1567&q=80') no-repeat;
     background-size: cover;
 }
 .left-images img {

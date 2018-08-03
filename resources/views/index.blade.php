@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('title', 'Index')
+
 @section('content')
     <!--about-->
     <section id="about" class="section-padding">
@@ -25,7 +27,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6">
-                        <img src="img/res01.jpg" alt="" class="img-responsive">
+                        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=217692eafea198d67733b9ee9c3f99d7&auto=format&fit=crop&w=1050&q=80" alt="" class="img-responsive">
                     </div>
                 </div>
                 <div class="col-md-1"></div>
@@ -86,114 +88,18 @@
                 </div>
 
                 <div id="menu-wrapper">
-
-                    <div class="breakfast menu-restaurant">
-                        <span class="clearfix">
-              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
-              <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                        <span class="menu-price">$20.99</span>
-                        </span>
-                        <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-                    </div>
-
-                    <div class="breakfast menu-restaurant">
-                        <span class="clearfix">
-              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
-              <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                        <span class="menu-price">$20.99</span>
-                        </span>
-                        <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-                    </div>
-
-                    <div class="breakfast menu-restaurant">
-                        <span class="clearfix">
-              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
-              <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                        <span class="menu-price">$20.99</span>
-                        </span>
-                        <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-                    </div>
-
-                    <div class="breakfast menu-restaurant">
-                        <span class="clearfix">
-              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
-              <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                        <span class="menu-price">$20.99</span>
-                        </span>
-                        <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-                    </div>
-
-                    <div class="lunch menu-restaurant">
-                        <span class="clearfix">
-              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
-              <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                        <span class="menu-price">$20.99</span>
-                        </span>
-                        <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-                    </div>
-
-                    <div class="lunch menu-restaurant">
-                        <span class="clearfix">
-              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
-              <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                        <span class="menu-price">$20.99</span>
-                        </span>
-                        <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-                    </div>
-
-                    <div class="lunch menu-restaurant">
-                        <span class="clearfix">
-              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
-              <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                        <span class="menu-price">$20.99</span>
-                        </span>
-                        <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-                    </div>
-
-                    <div class="lunch menu-restaurant">
-                        <span class="clearfix">
-              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
-              <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                        <span class="menu-price">$20.99</span>
-                        </span>
-                        <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-                    </div>
-
-                    <div class="lunch menu-restaurant">
-                        <span class="clearfix">
-              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
-              <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                        <span class="menu-price">$20.99</span>
-                        </span>
-                        <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-                    </div>
-
-                    <div class="dinner menu-restaurant">
-                        <span class="clearfix">
-              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
-              <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                        <span class="menu-price">$20.99</span>
-                        </span>
-                        <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-                    </div>
-
-                    <div class="dinner menu-restaurant">
-                        <span class="clearfix">
-              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
-              <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                        <span class="menu-price">$20.99</span>
-                        </span>
-                        <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-                    </div>
-
-                    <div class="dinner menu-restaurant">
-                        <span class="clearfix">
-              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
-              <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                        <span class="menu-price">$20.99</span>
-                        </span>
-                        <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-                    </div>
+                    @foreach($products as $product)
+                        <div class="{{ $product->product_type }} menu-restaurant">
+                            <span class="clearfix">
+                            <a class="menu-title product_name" href="{{route('productInfo', $product->id)}}" data-meal-img="assets/img/restaurant/rib.jpg">{{ $product->product_name}}</a>
+                                <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                            <span class="menu-price">
+                                <span class="price">${{ $product->price }}</span>
+                            </span>
+                            </span>
+                            <span class="menu-subtitle">{{ $product->product_description }}</span>
+                        </div>
+                    @endforeach
                 </div>
 
             </div>
@@ -205,8 +111,7 @@
             <div class="row">
                 <div class="col-md-12 text-center">
                     <h1 class="header-h">Book Your table</h1>
-                    <p class="header-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-                        <br>nibh euismod tincidunt ut laoreet dolore magna aliquam. </p>
+                    <p class="header-p">This feature and more, all coming soon...</p>
                 </div>
             </div>
             <div class="row msg-row">
@@ -216,25 +121,26 @@
                             <div class="contact-phone bg-1 text-center"><span class="phone-in-talk fa fa-phone"></span></div>
                         </div>
                         <div class="media-body">
-                            <h4 class="dark-blue regular">Phone Numbers</h4>
-                            <p class="light-blue regular alt-p">+440 875369208 - <span class="contacts-sp">Phone Booking</span></p>
+                            <h4 class="dark-blue regular">Phone Number</h4>
+                            <p class="light-blue regular alt-p">01949 843336 - <span class="contacts-sp">Main Phone Number</span></p>
                         </div>
                     </div>
                     <div class="media-2">
                         <div class="media-left">
-                            <div class="contact-email bg-14 text-center"><span class="hour-icon fa fa-clock-o"></span></div>
+                            <div class="contact-email bg-14 text-center"><span class="hour-icon fas fa-clock"></span></div>
                         </div>
                         <div class="media-body">
                             <h4 class="dark-blue regular">Opening Hours</h4>
-                            <p class="light-blue regular alt-p"> Monday to Friday 09.00 - 24:00</p>
+                            <p class="light-blue regular alt-p"> Monday to Friday 09.00 - 15:00</p>
                             <p class="light-blue regular alt-p">
-                                Friday and Sunday 08:00 - 03.00
+                                Saturday 09:00 - 14.00
                             </p>
+                            <p class="light-blue regular alt-p"> Sunday - Closed</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-8 col-sm-8">
-                    <form action="" method="post" role="form" class="contactForm">
+                    <form action="#" method="post" role="form" class="contactForm">
                         <div id="sendmessage">Your booking request has been sent. Thank you!</div>
                         <div id="errormessage"></div>
                         <div class="col-md-6 col-sm-6 contact-form pad-form">
