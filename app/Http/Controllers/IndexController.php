@@ -16,8 +16,8 @@ class IndexController extends Controller
 
     public function productInformation($id)
     {
-        $productInformation = Products::where('id', $id);
-        return view('productInformation', ['product_information' => $productInformation]);
+        $productInformation = Products::find($id);
+        return view('productInfo', ['productInformation' => $productInformation]);
     }
 
     /*public function cartInsert()
